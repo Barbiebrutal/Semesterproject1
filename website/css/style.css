@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: white;
+    overflow-x: hidden;
+    font-family: "Koulen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.category-container a {
+    color: black;
+    font-size: 36px;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+.main-photo {
+    padding-top: 3vh;
+}
+
+.photo-logo {
+    height: 14vh;
+    width: auto;
+    border-top: solid 30px white;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.main-text {
+    color: white;
+}
+
+.text-color {
+    color: white;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.events-cta {
+    width: 303px;
+    height: 63px;
+    border-radius: 50px;
+    background-color: #00C49C;
+    text-align: center;
+    text-decoration: none;
+    left: 50%;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.explore-cta {
+    width: 303px;
+    height: 63px;
+    border-radius: 50px;
+    background-color: #E896F2;
+    text-align: center;
+    text-decoration: none;
+    left: 20%;
+}
+
+.explore-box {
+    background-color: #9BE9D9;
+
+}
+
+
+.bg-pink {
+    background-color: #E896F2;
+}
+
+.bg-yellow {
+    background-color: #FFB44A;
+}
+
+.rounded-xl {
+    border-radius: 85px;
+}
+
+.main-headline {
+    font-size: 130px;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.relative {
+    position: relative;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+.items-center {
+    align-items: center;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.gap-60 {
+    gap: 60px;
+}
+
+.h-32 {
+    height: 13rem;
+}
+
+.w-auto {
+    width: auto;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.p-2 {
+    padding: 0, 5rem;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+
+.block {
+    display: block;
+}
+
+.text-md {
+    font-size: 38px;
+}
+
+.text-lg {
+    font-size: 48px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+
+.w-full {
+    width: 100%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.mt-1\.5 {
+    margin-top: 1.5rem;
+}
+
+.ml-2 {
+    margin-left: 2rem;
+}
