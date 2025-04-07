@@ -276,6 +276,11 @@ body {
     padding-right: 61px;
 }
 
+.px-22 {
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
 .py-30 {
     padding-top: 30px;
     padding-bottom: 30px;
