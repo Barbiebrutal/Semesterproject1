@@ -8,6 +8,8 @@
     <meta name="description" content="Community Science Museum" />
     <title>Community Science Museum</title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/ad1a04f8fa.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,20 +45,20 @@
         <img class="w-full block" src="photo\Screenshot 2025-04-06 145602.png" alt="Girl at the museum">
         <div class="absolute flex flex-col items-center text-color text-center">
             <h1 class="main-headline">Community Science Museum</h1>
-            <div class="flex gap-40">
-                <a href="events.html"
-                    class="events-cta bg-darkgreen text-md flex justify-center items-center">Events</a>
-                <a href="explore.html" class="explore-cta bg-pink text-md flex justify-center items-center">Explore</a>
+                <div class="flex gap-10 mt-4">
+                    <a href="events.html" class="flex items-center justify-center text-sm text-color bg-darkgreen radius-full px-12 py-8 no-underline">Events</a>
+                    <a href="explore.html" class="flex items-center justify-center text-sm text-color bg-pink radius-full px-12 py-8 no-underline">Explore</a>
+                  </div>
             </div>
         </div>
         </div>
     </section>
 
-    <section class="flex gap-40 justify-center mt-4 px-15">
-        <div class="w-main-box h-main-box radius-xl flex flex-col items-center pt-4 pb-120 relative explore-box">
+    <section class="flex flex-col md-flex-row gap-40 justify-center mt-4 px-15">
+        <div class="radius-xl flex flex-col items-center pt-4 pb-120 relative explore-box">
             <img src="photo\Kopie_van_dif.edits.png" alt="Explore text box with a boy"
                 class="w-img h-img mx-auto block">
-            <h2 class="text-lg line-height56 px-61 -mt-50 mb-60 text-left">You can learn about Newtonian physics from
+            <h2 class="text-sm  px-61 -mt-50 mb-60 text-left">You can learn about Newtonian physics from
                 our bumper
                 swing, or why
                 not travel
@@ -64,37 +66,33 @@
                 in time and meet our resident Woolly Mammoth?
             </h2>
             <a href="explore.html"
-                class="w-btn h-btn radius-full absolute bottom-30 left-61 flex justify-center items-center text-md text-color bg-darkgreen">Start
+                class="w-btn h-btn radius-full absolute bottom-30 flex justify-center items-center text-md text-color bg-darkgreen">Start
                 your
                 adventure</a>
         </div>
-        <div class="w-main-box h-main-box radius-xl flex flex-col items-center pt-4 pb-120 relative bg-yellow">
+        <div class="radius-xl flex flex-col items-center pt-4 pb-120 relative bg-yellow">
             <img src="photo\5.png" alt="Special Events text box with a girl" class="w-img h-img mx-auto block">
-            <h2 class="text-lg line-height56 px-61 -mt-50 mb-60 text-left">Get your family together for an exciting
+            <h2 class="text-sm px-61 -mt-50 mb-60 text-left">Get your family together for an exciting
                 night in
                 the
                 museum as you
                 sleep over
                 beside dinosaurs and science displays.</h2>
             <a href="events.html"
-                class="w-btn h-btn radius-full absolute bottom-30 left-61 flex justify-center items-center text-md text-color bg-lightyellow">Reserve
+                class="w-btn h-btn radius-full absolute bottom-30 flex justify-center items-center text-md text-color bg-lightyellow">Reserve
                 your spot</a>
         </div>
-        <div class="w-main-box h-main-box radius-xl flex flex-col items-center pt-4 pb-120 relative bg-pink">
+        <div class="radius-xl flex flex-col items-center pt-4 relative bg-pink">
             <img src=" photo/6.png" alt="Exhibitions" class="w-img mx-auto block mb-0">
 
-            <h2 class="text-lg line-height56 px-61 -mt-50 mb-60 text-left ">
+            <h2 class="text-sm  px-61 -mt-50 mb-60 text-left ">
                 Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the
                 latest exploration of the planets in our solar system.
             </h2>
 
             <a href="exhibitions.html"
-                class="w-btn h-btn radius-full absolute bottom-30 left-61 flex justify-center items-center text-md text-color bg-lightpink">
+                class="w-btn h-btn radius-full absolute bottom-30 flex justify-center items-center text-md text-color bg-lightpink">
                 Follow the exploration
             </a>
         </div>
 
-
-
-    </section>
-</body>
