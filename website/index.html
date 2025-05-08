@@ -9,90 +9,117 @@
     <title>Community Science Museum</title>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-
-    <script src="https://kit.fontawesome.com/ad1a04f8fa.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/ad1a04f8fa.js" crossorigin="anonymous"></script>
+
 
 </head>
 
 <body>
     <header class="flex justify-between items-center">
 
-        <div class="header-logo">
+        <div class="">
             <a href="/semesterproject/website/photo">
                 <img class="photo-logo" src="photo/Kopie_van_dif.edits_6.png" alt="Community Science Museum">
             </a>
         </div>
-
-        <section class="category-container">
-            <div class="category-header">
-                <div class="category-categories flex gap-50">
-                    <a href="index.html">Home</a>
-                    <a href="explore.html">Explore</a>
-                    <a href="exhibitions.html">Exhibitions</a>
-                    <a href="events.html">Events</a>
-                    <a href="visit.html">Visit</a>
-                    <a href="getinvolved.html">Get Involved</a>
-                </div>
-            </div>
-        </section>
     </header>
-    <section class="main-photo flex items-center justify-center relative">
-        <img class="w-full block" src="photo\Screenshot 2025-04-06 145602.png" alt="Girl at the museum">
-        <div class="absolute flex flex-col items-center text-color text-center">
+    <section class="flex flex-col main-section">
+        <div class="flex flex-col inner-section gap-2">
             <h1 class="main-headline">Community Science Museum</h1>
-                <div class="flex gap-10 mt-4">
-                    <a href="events.html" class="flex items-center justify-center text-sm text-color bg-darkgreen radius-full px-12 py-8 no-underline">Events</a>
-                    <a href="explore.html" class="flex items-center justify-center text-sm text-color bg-pink radius-full px-12 py-8 no-underline">Explore</a>
-                  </div>
+            <div class="flex gap-2">
+                <a href="events.html" class="bg-darkgreen rounded-xl px-8 py-2">Events</a>
+                <a href="explore.html" class="bg-pink rounded-xl px-8 py-2">Explore</a>
             </div>
-        </div>
         </div>
     </section>
 
-    <section class="flex flex-col md-flex-row gap-40 justify-center mt-4 px-15">
-        <div class="radius-xl flex flex-col items-center pt-4 pb-120 relative bg-lightgreen">
-            <img src="photo\Kopie_van_dif.edits.png" alt="Explore text box with a boy"
-                class="w-img h-img mx-auto block">
-            <h2 class="text-sm  px-61 -mt-50 mb-60 text-left">You can learn about Newtonian physics from
-                our bumper
-                swing, or why
-                not travel
-                back
-                in time and meet our resident Woolly Mammoth?
-            </h2>
+    <section class="flex-row-even flex flex-col gap-2 p-4 w-full">
+        <div class="flex flex-col justify-between items-center gap-2 bg-green rounded-xl p-4">
+            <div class="flex flex-col items-center ">
+                <img src="photo\Kopie_van_dif.edits.png" alt="Explore text box with a boy" class="w-72 h-auto -mt-12">
+                <span class="text-white text-md">You can learn about Newtonian physics from
+                    our bumper
+                    swing, or why
+                    not travel
+                    back
+                    in time and meet our resident Woolly Mammoth?
+                </span>
+            </div>
+
             <a href="explore.html"
-                class="w-btn h-btn radius-full absolute bottom-30 flex justify-center items-center text-md text-color bg-darkgreen">Start
+                class="bg-darkgreen hover:bg-green text-shadow  w-full text-center rounded-c-xl px-8 py-2">Start
                 your
                 adventure</a>
         </div>
-        <div class="radius-xl flex flex-col items-center pt-4 pb-120 relative bg-yellow">
-            <img src="photo\5.png" alt="Special Events text box with a girl" class="w-img h-img mx-auto block">
-            <h2 class="text-sm px-61 -mt-50 mb-60 text-left">Get your family together for an exciting
-                night in
-                the
-                museum as you
-                sleep over
-                beside dinosaurs and science displays.</h2>
-            <a href="events.html"
-                class="w-btn h-btn radius-full absolute bottom-30 flex justify-center items-center text-md text-color bg-lightyellow">Reserve
+        <div class="flex flex-col justify-between items-center gap-2 bg-yellow rounded-xl p-4">
+            <div class="flex flex-col items-center ">
+
+                <img src="photo\5.png" alt="Special Events text box with a girl" class="w-72 h-auto -mt-12">
+                <span class="text-wrap text-white text-md">Get your family together for an exciting
+                    night in
+                    the
+                    museum as you
+                    sleep over
+                    beside dinosaurs and science displays.</span>
+            </div>
+
+            <a href="events.html" class="bg-lightyellow w-full text-center text-shadow rounded-c-xl px-8 py-2">Reserve
                 your spot</a>
         </div>
-        <div class="radius-xl flex flex-col items-center pt-4 relative bg-pink">
-            <img src=" photo/6.png" alt="Exhibitions" class="w-img mx-auto block mb-0">
+        <div class="flex flex-col justify-between items-center gap-2 bg-pink rounded-xl p-4">
+            <div class="flex flex-col items-center ">
 
-            <h2 class="text-sm  px-61 -mt-50 mb-60 text-left ">
-                Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the
-                latest exploration of the planets in our solar system.
-            </h2>
+                <img src=" photo/6.png" alt="Exhibitions" class="w-72 h-auto -mt-12">
+                <span class="text-wrap text-white text-md">
+                    Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the
+                    latest exploration of the planets in our solar system.
+                </span>
+            </div>
 
             <a href="exhibitions.html"
-                class="w-btn h-btn radius-full absolute bottom-30 flex justify-center items-center text-md text-color bg-lightpink">
+                class="bg-lightpink hover:bg-green w-full text-center text-shadow rounded-c-xl px-8 py-2 ">
                 Follow the exploration
             </a>
         </div>
+    </section>
 
+    <footer class="flex-row-even flex flex-col gap-2 p-4 w-full">
+        <div class="flex flex-col lg-flex-row items-center">
+            <img src="photo/Kopie_van_dif.edits_6.png" alt="Community Science Museum" class="w-28 h-auto">
+            <span class="text-wrap text-sm">Come join us at the Community Science Museum where we’re committed to making
+                science accessible to all.</span>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-1">
+            <h2 class="footer-some-label">Social Media</h2>
+            <div class="flex gap-2">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="photo/icons/facebook.png" alt="Facebook" class="w-6 h-6">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="photo/icons/instagram.png" alt="Instagram" class="w-6 h-6">
+                </a>
+                <a href="https://snapchat.com/" target="_blank">
+                    <img src="photo/icons/snapchat.png" alt="Twitter" class="w-6 h-6">
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <h2 class="footer-contact-label">Contact</h2>
+            <div class="flex">
+                Ikon + tekst
+            </div>
+            <div class="flex"> Ikon + tekst</div>
+            <div class="flex"> Ikon + tekst</div>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
